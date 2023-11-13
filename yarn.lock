@@ -3572,6 +3572,11 @@ semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
+seroval@^0.12.0:
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/seroval/-/seroval-0.12.3.tgz#6dac3dacd603f28a5e6d3c4c6cb685af7bf2e885"
+  integrity sha512-5WDeMpv7rmEylsypRj1iwRVHE/QLsMLiZ+9savlNNQEVdgGia1iRMb7qyaAagY0wu/7+QTe6d2wldk/lgaLb6g==
+
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -3588,12 +3593,13 @@ sirv@^2.0.2:
     mrmime "^1.0.0"
     totalist "^3.0.0"
 
-solid-js@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.6.0.tgz#52fe81e553e42fc6873ebd12093eb8fdc5d22571"
-  integrity sha512-db5s65ErgZnBhapPx77qauzul8akHlMCvirS+Y86U4abMa3uizMVNW9ql3UxbO0yMzMGNpFJwUiOlXmJCbwVpA==
+solid-js@^1.8.5:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.8.5.tgz#60c68cb67feafa84c2c3f38dd2050adeef31cde1"
+  integrity sha512-xvtJvzJzWbsn35oKFhW9kNwaxG1Z/YLMsDp4tLVcYZTMPzvzQ8vEZuyDQ6nt7xDArVgZJ7TUFrJUwrui/oq53A==
   dependencies:
     csstype "^3.1.0"
+    seroval "^0.12.0"
 
 solid-refresh@^0.4.1:
   version "0.4.1"
