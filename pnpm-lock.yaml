@@ -21,14 +21,14 @@ dependencies:
     specifier: ^2.50.2
     version: 2.50.2(autoprefixer@10.4.16)(postcss@8.4.31)
   markmap-common:
-    specifier: ^0.14.2
-    version: 0.14.2
+    specifier: ^0.15.6
+    version: 0.15.6
   markmap-lib:
     specifier: ^0.14.4
-    version: 0.14.4(markmap-common@0.14.2)
+    version: 0.14.4(markmap-common@0.15.6)
   markmap-view:
     specifier: ^0.15.6
-    version: 0.15.6(markmap-common@0.14.2)
+    version: 0.15.6(markmap-common@0.15.6)
   openai:
     specifier: ^3.2.1
     version: 3.2.1
@@ -1194,13 +1194,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+    dev: false
 
   /@babel/runtime@7.23.5:
     resolution: {integrity: sha512-NdUTHcPe4C99WxPub+K9l9tK5/lV4UXIoaHSYgzco9BCyjKAAwzdBI+wWtYqHt7LJdbo74ZjRPJgzVweq1sz0w==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
-    dev: false
 
   /@babel/template@7.20.7:
     resolution: {integrity: sha512-8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw==}
@@ -3253,13 +3253,15 @@ packages:
     dependencies:
       semver: 6.3.1
 
-  /markmap-common@0.14.2:
-    resolution: {integrity: sha512-uGk++7mh237YneJRn9BH/KMbc1ImvMSlvOHOXqK9TyFP+NqQ0+ZYYKYXdTRyozzcMMtz0U0fb00k3Z7FNkAu1g==}
+  /markmap-common@0.15.6:
+    resolution: {integrity: sha512-uBJkdHvkppTiaw+IXau6aVQgN6F/o2BT6l6QghavQLrd6r7H5Ce7/EcMAg+T4RwBKqzJoraLARkIWARXuqmOgw==}
     dependencies:
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.23.5
+      '@gera2ld/jsx-dom': 2.2.2
+      npm2url: 0.2.4
     dev: false
 
-  /markmap-lib@0.14.4(markmap-common@0.14.2):
+  /markmap-lib@0.14.4(markmap-common@0.15.6):
     resolution: {integrity: sha512-tyXhpER0XdQe/sxWOjMVshbPcfrcNnV5MzdjxVGUUovep1jxFuuBWS5Cp7z41pzUpW1+56Mxb7Vgp4Psme3sSw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -3268,13 +3270,13 @@ packages:
       '@babel/runtime': 7.21.0
       js-yaml: 4.1.0
       katex: 0.16.4
-      markmap-common: 0.14.2
+      markmap-common: 0.15.6
       prismjs: 1.29.0
       remarkable: 2.0.1
       remarkable-katex: 1.2.1
     dev: false
 
-  /markmap-view@0.15.6(markmap-common@0.14.2):
+  /markmap-view@0.15.6(markmap-common@0.15.6):
     resolution: {integrity: sha512-aW6UpwhmJYxlZYCW+hqprAxu5I6r/q0qgbJdEEMzuqWcuUQzgw+jdGLcUXhYJk76RIqHedHg3P8nGJgNEpDyKA==}
     peerDependencies:
       markmap-common: '*'
@@ -3284,7 +3286,7 @@ packages:
       '@types/d3': 7.4.3
       d3: 7.8.5
       d3-flextree: 2.1.2
-      markmap-common: 0.14.2
+      markmap-common: 0.15.6
     dev: false
 
   /merge-anything@5.1.4:
@@ -3415,6 +3417,10 @@ packages:
   /normalize-range@0.1.2:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
+
+  /npm2url@0.2.4:
+    resolution: {integrity: sha512-arzGp/hQz0Ey+ZGhF64XVH7Xqwd+1Q/po5uGiBbzph8ebX6T0uvt3N7c1nBHQNsQVykQgHhqoRTX7JFcHecGuw==}
+    dev: false
 
   /npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
@@ -3601,15 +3607,15 @@ packages:
 
   /regenerator-runtime@0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
+    dev: false
 
   /regenerator-runtime@0.14.0:
     resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
-    dev: false
 
   /regenerator-transform@0.15.1:
     resolution: {integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==}
     dependencies:
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.23.5
 
   /regexpu-core@5.3.1:
     resolution: {integrity: sha512-nCOzW2V/X15XpLsK2rlgdwrysrBq+AauCn+omItIz4R1pIcmeot5zvjdmOBRLzEH/CkC6IxMJVmxDe3QcMuNVQ==}
