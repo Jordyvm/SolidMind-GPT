@@ -21,9 +21,7 @@
     "d3": "^7.8.5",
     "daisyui": "^4.4.20",
     "markmap-common": "^0.15.6",
-    "markmap-lib": "^0.15.8",
-    "markmap-view": "^0.15.8",
-    "openai": "^3.2.1",
+    "openai": "^4.24.1"",
     "solid-js": "^1.8.7",
     "solid-start": "^0.2.0",
     "undici": "^6.3.0"
