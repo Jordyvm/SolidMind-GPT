@@ -2867,10 +2867,10 @@ markmap-lib@^0.15.8:
     remarkable "^2.0.1"
     remarkable-katex "^1.2.1"
 
-markmap-view@^0.15.6:
-  version "0.15.6"
-  resolved "https://registry.yarnpkg.com/markmap-view/-/markmap-view-0.15.6.tgz#d7c76361e83b82cb984687ac04e18804f7d9033a"
-  integrity sha512-aW6UpwhmJYxlZYCW+hqprAxu5I6r/q0qgbJdEEMzuqWcuUQzgw+jdGLcUXhYJk76RIqHedHg3P8nGJgNEpDyKA==
+markmap-view@^0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/markmap-view/-/markmap-view-0.15.8.tgz#0cfe0cd58049254dc39f817fe26c189e31d3c5b1"
+  integrity sha512-/QrVf2cxgsMUEO256SQd9w1VykT4XTF6cJwUHiUO/dF4UjyIkTQ2TMzhoVGjj2XzppQtS2mjXcjPq2ePX16RUA==
   dependencies:
     "@babel/runtime" "^7.22.6"
     "@gera2ld/jsx-dom" "^2.2.2"

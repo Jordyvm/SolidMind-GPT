@@ -27,8 +27,8 @@ dependencies:
     specifier: ^0.15.8
     version: 0.15.8(markmap-common@0.15.6)
   markmap-view:
-    specifier: ^0.15.6
-    version: 0.15.6(markmap-common@0.15.6)
+    specifier: ^0.15.8
+    version: 0.15.8(markmap-common@0.15.6)
   openai:
     specifier: ^3.2.1
     version: 3.2.1
@@ -3273,8 +3273,8 @@ packages:
       remarkable-katex: 1.2.1
     dev: false
 
-  /markmap-view@0.15.6(markmap-common@0.15.6):
-    resolution: {integrity: sha512-aW6UpwhmJYxlZYCW+hqprAxu5I6r/q0qgbJdEEMzuqWcuUQzgw+jdGLcUXhYJk76RIqHedHg3P8nGJgNEpDyKA==}
+  /markmap-view@0.15.8(markmap-common@0.15.6):
+    resolution: {integrity: sha512-/QrVf2cxgsMUEO256SQd9w1VykT4XTF6cJwUHiUO/dF4UjyIkTQ2TMzhoVGjj2XzppQtS2mjXcjPq2ePX16RUA==}
     peerDependencies:
       markmap-common: '*'
     dependencies:
